@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) # Project 1 - Analyse Weather and Households Energy Consumption Patterns to Identify Opportunities in Optimising Energy Efficiency
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) # Project 1 - Harnessing Weather Patterns to Identify Means to Optimise Households Energy Consumption by Town
 
 ## Project Objectives
 
@@ -68,7 +68,7 @@ The data above are abstracted from [Energy Market Authority (EMA)](https://www.e
     - the campaign will be electricity consumption focused
 #### 3. If a energy conservation strategy works in this area, due to the high correlation between energy consumption patterns across areas, the campaign can expand to island-wide.
 
-
+---
 ### Citations
 
 Source 1: https://www.ema.gov.sg/singapore-energy-statistics/Ch03/index3
