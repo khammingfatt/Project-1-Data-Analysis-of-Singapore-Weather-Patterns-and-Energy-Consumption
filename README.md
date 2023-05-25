@@ -55,7 +55,7 @@ The data above are abstracted from [Energy Market Authority (EMA)](https://www.e
 
 ---
 
-## Key Takeaways from the Analysis
+## Key Insights from the Analysis
 
 1. Total rainfall in a month and maximum rainfall in a day have strong positive correlation (r = 0.81).
 2. Mean temperature and wet bulb temperature have strong positive correlation (0.775680).
@@ -66,9 +66,10 @@ The data above are abstracted from [Energy Market Authority (EMA)](https://www.e
 
 ---
 
-## Recommendations
+## Actionable Recommendations
 
-#### 1. The recommendations from us **will not** be weather-dependent.
+#### 1. The recommended campaign from us **will not** be weather-dependent.
+
 #### 2. Bukit Timah, Newton, Orchard, Tanglin and Southern Islands are
 - **top** target audience for energy consumption campaign
 - the campaign will be **electricity consumption focused**
