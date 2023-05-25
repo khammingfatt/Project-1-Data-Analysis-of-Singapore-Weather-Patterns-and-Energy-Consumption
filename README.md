@@ -1,19 +1,24 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) # Project 1 - Harnessing Weather Patterns to Identify Means to Optimise Households Energy Consumption by Town
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) # Project 1 - Data Analysis of Singapore Weather Patterns to Identify Means to Optimise Households Energy Consumption by Town
 
 ## Project Objectives
 
-Singapore’s climate is characterised by two main monsoon seasons separated by inter-monsoonal periods.  The **Northeast Monsoon** occurs from December to early March, and the **Southwest Monsoon** from June to September.
+Singapore’s climate is characterised by two main monsoon seasons separated by inter-monsoonal periods.  The **Northeast Monsoon** occurs from December to early March, and the **Southwest Monsoon** from June to September. Weather can potentially impact energy consumption as usage patterns in response to weather conditions. 
 
-Weather can potentially impact energy consumption as usage patterns in response to weather conditions. 
-By analysing the **relationship** between rainy days and energy consumption, we can identify opportunities to promote more efficient practices and optimise energy usage.
+Analysing the **relationship** between Singapore weather and energy consumption across town, we can identify opportunities to promote more efficient practices and optimise energy usage.
+
+---
 
 
 ## Methodology
 
 Step 1 : Analyse Monthly weather **pattern** in Singapore
+
 Step 2 : Analyse **Relationship** between various monthly weather data
+
 Step 3 : Analyse Energy consumption **pattern** per month across town in Singapore
+
 Step 4 : Analyse **Relationship** between various monthly weather data
+
 Step 5 : Analyse **Relationship** between various monthly weather data and energy consumption across town
 Conclusion: Sharing **insights** that assists in decision making process for approach
 
@@ -44,7 +49,7 @@ The data above are abstracted from [Energy Market Authority (EMA)](https://www.e
 |mean_rh|float|df_humidity|Relative Humidity|
 |mean_sunshine_hrs|float|df_sunshine|Mean number of hours Sun is out|
 |mean_temp|float|df_mean_temperature|Mean temperature of the day in degree Celcius|
-|wet_bulb_temperature|float|df_month_wet_bulb|Mean temperature indicated by a moistened thermometer bulb exposed to the air flow|
+|wet_bulb_temperature|float|df_month_wet_bulb|Mean temperature in degree Celcius indicated by a moistened thermometer bulb exposed to the air flow|
 |Bishan|float|df_econsumption|Electricity Consumption in a month in kWh in Bishan Town|
 |Bishan|float|df_gconsumption|Natural Gas Consumption in a month in kWh in Bishan Town|
 
@@ -55,18 +60,19 @@ The data above are abstracted from [Energy Market Authority (EMA)](https://www.e
 1. Total rainfall in a month and maximum rainfall in a day have strong positive correlation (r = 0.81).
 2. Mean temperature and wet bulb temperature have strong positive correlation (0.775680).
 3. 70% of the Towns in Singapore has high correlation in energy consumption behaviours, supported by its high correlations. (See the heatmap and correlation coefficients table in the code)
-4. Selected Towns like Bukit Timah, Newton, Orchard, Paya Lebar, Seletar, Southern Islands, Tanglin and Sungei Kadut has unusually high average household consumptions.
-5. Weather and Energy Consumption by Household does not have any significant relationship.
+4. Singapore has approximately 20.9% of private housing but is responsible for consuming approximately 41.3% of total household energy consumption. 
+5. Selected Towns like Bukit Timah, Newton, Orchard, Paya Lebar, Seletar, Southern Islands, Tanglin and Sungei Kadut has unusually high average household consumptions.
+6. Weather and Energy Consumption by Household does not have any significant relationship.
 
 ---
 
 ## Recommendations
 
-#### 1. The recommendations from us will not be weather-dependent.
+#### 1. The recommendations from us **will not** be weather-dependent.
 #### 2. Bukit Timah, Newton, Orchard, Tanglin and Southern Islands are
-    - top target audience for energy consumption campaign
-    - the campaign will be electricity consumption focused
-#### 3. If a energy conservation strategy works in this area, due to the high correlation between energy consumption patterns across areas, the campaign can expand to island-wide.
+- **top** target audience for energy consumption campaign
+- the campaign will be **electricity consumption focused**
+#### 3. If a energy conservation strategy works in this area, due to the high similarity (correlation) between energy consumption patterns across areas, the campaign can **potentially expand** across all towns in Singapore.
 
 ---
 ### Citations
@@ -86,3 +92,5 @@ Source 6: https://www.inspirecleanenergy.com/blog/sustainable-living/how-much-el
 Source 7: https://www.candy-home.com/en_GB/blog/how-much-electricity-does-a-washer-drier-consume/#:~:text=The%20average%20estimate%20is%20around,cycle%20(around%2090%20cents).
 
 Source 8: https://news.energysage.com/how-many-watts-does-a-refrigerator-use/#:~:text=A%20home%20refrigerator's%20power%20consumption,and%20off%20throughout%20the%20day.
+
+Source 9: https://www.singstat.gov.sg/find-data/search-by-theme/households/households/latest-data
